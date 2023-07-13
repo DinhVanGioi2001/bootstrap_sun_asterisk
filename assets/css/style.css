@@ -51,6 +51,14 @@ body {
   background-color: #f4623a;
 }
 
+.project_name {
+  cursor: pointer;
+}
+
+.project_name:hover .overlay {
+  display: block !important;
+}
+
 .divider {
   height: 2px;
   width: 60px;
@@ -60,7 +68,7 @@ body {
 }
 
 @media (max-width: 1200px) {
-  .section--content {
+  .section-content {
     width: 75% !important;
   }
 }
@@ -75,7 +83,7 @@ body {
   .nav-link {
     color: black !important;
   }
-  .section--content {
+  .section-content {
     width: 100% !important;
   }
 }
